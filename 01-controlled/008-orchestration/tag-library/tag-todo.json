@@ -1,0 +1,24 @@
+{
+  "_block": "[05.DEVELOPER]",
+  "_optionality": "[DISCRETIONARY]",
+  "_origin": "[DECLARED]",
+  "_status": "[APPROVED_V3_20261005]",
+  "_description": "Meta-cognitive markers anchor to an optional section name.",
+  "_datatype": "[ENUM-CLOSED] sigil/kind, note, location",
+  "tagTodo": [
+    { "id": "todo:⊥BLOCKED", "description": "Awaiting resolution of another item. #2a2c41 on #8e9aaf" },
+    { "id": "todo:↯DANGER", "description": "This is fragile/dangerous and will bite. #d70427 on #ffe66b" },
+    { "id": "todo:∠DEFER", "description": "Not done yet, no defect, no plan-detail. Come back to this and address when time allows. #FEC53E on #003357" },
+    { "id": "todo:◯FIXME", "description": "Resolution required. Flags a known defect, unhandled edge case, or functional discrepancy that compromises stability. #05d69e on #00171f" },
+    { "id": "todo:µQUESTION", "description": "Works but not confident it is resolved. ADR-worthy question for deferred-decision-tracking. #1e3442 on #FF9F0A" },
+    { "id": "todo:⥉CRITICAL", "description": "Immediate action required. Indicates a blocking issue, severe security vulnerability, or broken core functionality. #fdff63 on #ef4444" },
+    { "id": "todo:ØREFACTOR", "description": "Change required. Existing logic is functional but requires modification, optimization, or architectural alignment. #503a55 on #e6e6e6" },
+    { "id": "todo:+IMPLEMENT", "description": "Addition required. Marks a missing feature, incomplete logic path, or planned functionality expansion. #535275 on #e8c468" },
+    { "id": "todo:↧DEPRECATE", "description": "Removal required. Identifies dead code, outdated dependencies, or legacy logic slated for active deletion. #fcfffa on #384052" },
+    { "id": "todo:⌖RESOLVED", "description": "Task completed and verified. Retained temporarily for code-review context or pending an AST clearing sweep. #30D158 on #0C2E14" },
+    { "id": "todo:‡AUDIT", "description": "Functional, but requires a strict security, performance, or compliance review prior to production release. #503a55 on #bce784" },
+    { "id": "todo:±DECOMPOSE", "description": "Typically a SUB/CHILD component that needs to be removed from a main file into their own, dedicated location. #ff9f1a on #114c5f" },
+    { "id": "todo:℄TESTING", "description": "Logic is complete but lacks adequate unit, integration, or E2E test coverage. #293242 on #fb9b41" },
+    { "id": "todo:^RUN", "description": "CLI or other command-driven syntax for running selected code. #011628 on #c6dabe" }
+  ]
+}

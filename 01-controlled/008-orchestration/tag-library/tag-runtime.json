@@ -1,0 +1,23 @@
+
+{
+  "_block": "[02.TOPOLOGY]",
+  "_optionality": "[REQUIRED]",
+  "_origin": "[DECLARED]",
+  "_status": "[APPROVED_V3_20261005]",
+  "_description": "[TET-β] Execution Context, runtime targets, path cross-check, where it executes, process context.",
+  "_datatype": "[ENUM-CLOSED] parent: target [TET-α]",
+  "tagRuntime": [
+    { "id": "runtime:documentation", "parent": ["target:directory"], "description": "Purely markdown for development." },
+    { "id": "runtime:main", "parent": ["target:desktop"], "description": "electron. All raw SQL queries, file system access, and data parsing happen in this process." },
+    { "id": "runtime:preload", "parent": ["target:desktop"], "description": "electron." },
+    { "id": "runtime:renderer", "parent": ["target:desktop"], "description": "electron." },
+    { "id": "runtime:shared", "parent": ["target:desktop"], "description": "electron." },
+    { "id": "runtime:server", "parent": null, "description": "headless / CLI, no UI. Not in V3 scope." },
+    { "id": "runtime:client", "parent": null, "description": "Java Virtual Machine, Node.js. Not in V3 scope." },
+    { "id": "runtime:browser", "parent": ["target:web"], "description": "JavaScript Engine, Web APIs." },
+    { "id": "runtime:edge", "parent": null, "description": "Cloudflare Workers, Vercel Edge Runtime Next.js, and WasmEdge. Not in V3 scope." },
+    { "id": "runtime:process", "parent": null, "description": "stubbed. Not in V3 scope." },
+    { "id": "runtime:editor", "parent": ["target:ide"], "description": "Workbench editor. Not in V3 scope." },
+    { "id": "runtime:non", "parent": null, "description": "Not Assignable." }
+  ]
+}

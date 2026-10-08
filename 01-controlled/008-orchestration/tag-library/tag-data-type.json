@@ -1,0 +1,15 @@
+
+{
+  "_status": "[APPROVED_V3_20261005]",
+  "_description": "Preamble Field Metadata for Data type.",
+  "tagDatatype": [
+    { "id": "datatype:string", "description": "Text" },
+    { "id": "datatype:integer", "description": "Whole number" },
+    { "id": "datatype:array", "description": "List" },
+    { "id": "datatype:object", "description": "Group of fields" },
+    { "id": "datatype:enum-closed", "description": "Validated closed keys required" },
+    { "id": "datatype:enum-open", "description": "Validated open keys allowable" },
+    { "id": "datatype:const", "description": "Value must be exactly this one thing" },
+    { "id": "datatype:pattern", "description": "Value must match this text-shape (a regex)" }
+  ]
+}

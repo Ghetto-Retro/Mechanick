@@ -1,0 +1,13 @@
+
+{
+  "_status": "[APPROVED_V3_20261005]",
+  "_description": "Determines the optionality of the specific Preamble field.",
+  "tagOptionality": [
+    { "id": "optionality:discretionary", "description": "Optional, Left to personal choice rather than being compulsory." },
+    { "id": "optionality:conditional", "description": "Required only if certain criteria or prior conditions are met." },
+    { "id": "optionality:addressable", "description": "A standard compliance term (used in frameworks like HIPAA) for something technically optional/flexible, provided you document why you skipped it." },
+    { "id": "optionality:nullable", "description": "system explicitly knows the field exists, but its current value is deliberately set to nothing." },
+    { "id": "optionality:undefined", "description": "The field hasn't been initialized, or it simply doesn't exist in the current scope or object shape." },
+    { "id": "optionality:required", "description": "Operational dependency." }
+  ]
+}

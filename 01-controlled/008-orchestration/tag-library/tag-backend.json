@@ -1,0 +1,15 @@
+
+{
+  "_block": "[02.TOPOLOGY]",
+  "_optionality": "[REQUIRED]",
+  "_origin": "[DECLARED]",
+  "_status": "[APPROVED_V3_20261005]",
+  "_description": "[TET-γ] Infrastructure Topology, where the state and heavy processing live relative to that code.",
+  "_datatype": "[ENUM-CLOSED] parent: runtime [TET-β]",
+  "tagBackend": [
+    { "id": "backend:local", "parent": ["runtime:documentation", "runtime:main", "runtime:preload", "runtime:renderer", "runtime:shared", "runtime:editor"], "description": "in-process DB, e.g. SQLite." },
+    { "id": "backend:baas", "parent": ["runtime:browser"], "description": "Firebase, Supabase." },
+    { "id": "backend:self-hosted", "parent": null, "description": "your own API + DB server. Not in V3 scope." },
+    { "id": "backend:non", "parent": null, "description": "Not Assignable." }
+  ]
+}

@@ -1,0 +1,17 @@
+
+{
+  "_block": "[02.TOPOLOGY]",
+  "_optionality": "[REQUIRED]",
+  "_origin": "[DECLARED]",
+  "_status": "[APPROVED_V3_20261005]",
+  "_description": "[TET-α] Macro Boundary, Host / platform target — where the app runs and gets delivered. Sets the absolute laws of physics for app.",
+  "_datatype": "[ENUM-CLOSED] parent",
+  "tagTarget": [
+    { "id": "target:desktop", "description": "Tauri, Electron, Chromium + Node desktop shell." },
+    { "id": "target:web", "description": "Browser-hosted; PWA installable variant." },
+    { "id": "target:mobile", "description": "Native / React Native / Capacitor. Not in V3 scope." },
+    { "id": "target:directory", "description": "File tree, local directory, GitHub, Obsidian." },
+    { "id": "target:ide", "description": "Internal Developer Environment. VS Code" },
+    { "id": "target:non", "description": "Not Assignable." }
+  ]
+}

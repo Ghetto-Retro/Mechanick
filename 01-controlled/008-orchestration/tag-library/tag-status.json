@@ -1,0 +1,21 @@
+
+{
+  "_status": "[APPROVED_V3_20261005]",
+  "_description": "REQUIRED-TAIL-APPEND: Version number (`V#`) and 8-digit timestamp (`YYYYMMDD`) (eg; `[IN-PROGRESS_V3_20260930]`).",
+  "tagStatus": [
+    { "id": "status:not-started", "description": "No documentation has been written yet." },
+    { "id": "status:planning", "description": "Specifications and scope are loosely discussed and documented." },
+    { "id": "status:in-progress", "description": "Documentation is currently being written or updated." },
+    { "id": "status:in-review", "description": "Documentation is written and waiting for peer or technical review." },
+    { "id": "status:revision-requested", "description": "Documentation has been reviewed and requires an update before moving to next gate." },
+    { "id": "status:approved", "description": "Documentation has been reviewed and meets quality standards." },
+    { "id": "status:published", "description": "Documentation is live and accessible to users or developers." },
+    { "id": "status:controlled", "description": "An asset, file, or system is subject to strict mechanisms that regulate changes, access, and distribution." },
+    { "id": "status:archived", "description": "File has been moved to a read-only state for long-term storage because it is no longer actively used." },
+    { "id": "status:superseded", "description": "An older piece of code, version, or decision has been replaced by a newer one and is no longer active or recommended for use." },
+    { "id": "status:no-commit", "description": "Files not cleared for release/commit under any circumstances." },
+    { "id": "status:deprecated", "description": "The documented feature is old and the documentation is marked for removal or archive." },
+    { "id": "status:legacy", "description": "Legacy files." },
+    { "id": "status:unmonitored", "description": "Documentation generated externally and subject to change." }
+  ]
+}

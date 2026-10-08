@@ -1,0 +1,15 @@
+
+{
+  "_status": "[APPROVED_V3_20261005]",
+  "_description": "Answers what supplies the value.",
+  "tagOrigin": [
+    { "id": "origin:constant", "description": "Fixed by the schema; identical in every file." },
+    { "id": "origin:instantiated", "description": "Template fills in env vars at insert, then frozen until re-stamped." },
+    { "id": "origin:declared", "description": "Author picks it (enum or free text)." },
+    { "id": "origin:derived", "description": "Deterministic function of the file's own values." },
+    { "id": "origin:inherited", "description": "Resolved from an enclosing scope (root, layer, build)." },
+    { "id": "origin:composed", "description": "Built from parts of mixed origin under a token grammar." },
+    { "id": "origin:intrinsic", "description": "Property of the file itself (real path, mtime, extension)." },
+    { "id": "origin:proposed", "description": "Machine-suggested and unverified; becomes DECLARED once a human accepts it." }
+  ]
+}

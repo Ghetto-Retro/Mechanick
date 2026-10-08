@@ -1,0 +1,12 @@
+
+{
+  "_status": "[APPROVED_V3_20261005]",
+  "_description": "Procedural Preamble sections",
+  "tagBlocks": [
+    { "id": "blocks:01.initialization", "description": "Preload and file metadata for version tracking, project assignment, and location information." },
+    { "id": "blocks:02.topology", "description": "Topological Execution Tetrad [TET] vertices: establishes cascading macro boundaries defined by physics and user delivery down to the bare metal of how bits are saved on a disk." },
+    { "id": "blocks:03.dimensional", "description": "Dimensional Matrix Triad [DMT] axes: establishes the coordinate system as an orthogonal grid to drive autocomplete and scaffolding." },
+    { "id": "blocks:04.governance", "description": "Policy enforcement and architectural traceability, maintaining relevant clause IDs, ADR links, version history, and concession records." },
+    { "id": "blocks:05.developer", "description": "Reserved for developer-facing context, tracking pending tasks and technical notes." }
+  ]
+}

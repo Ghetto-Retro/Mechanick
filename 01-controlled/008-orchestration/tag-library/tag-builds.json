@@ -1,0 +1,14 @@
+
+{
+  "_block": "[01.INITIALIZATION]",
+  "_optionality": "[REQUIRED]",
+  "_origin": "[DECLARED]",
+  "_status": "[APPROVED_V3_20261005]",
+  "_description": "Local Contract, which project this file belongs to.",
+  "_datatype": "[ENUM-OPEN]",
+  "tagBuild": [
+    { "id": "build:build1", "description": "build 1" },
+    { "id": "build:build2", "description": "build 2" },
+    { "id": "build:build3", "description": "build 3" }
+  ]
+}

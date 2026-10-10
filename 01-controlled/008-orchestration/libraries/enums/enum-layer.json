@@ -3,7 +3,7 @@
   "_block": "[03.DIMENSIONAL]",
   "_optionality": "[REQUIRED]",
   "_origin": "[DECLARED]",
-  "_status": "[APPROVED_V3_20261005]",
+  "_status": "[APPROVED_V3_20261010]",
   "_description": "[DMT-ξ] Architectural Axis. Layer, lint-verified directional boundaries.",
   "_datatype": "[ENUM-CLOSED]",
   "enumLayer": [
@@ -19,7 +19,7 @@
     { "id": "layer:009-authentication", "description": "RBAC, Logins. Auth Safety." },
     { "id": "layer:010-security", "description": "Security, env." },
     { "id": "layer:011-tenancy", "description": "Tenant isolation, Multi-Tenancy." },
-    { "id": "layer:012-data-recovery", "description": "RPO, RTO" },
+    { "id": "layer:012-recovery", "description": "RPO, RTO" },
     { "id": "layer:900-governance", "description": "Document requirements, explicit rules, enforcement mechanisms that dictate create, modify, version, and retirement — records decisions and events." },
     { "id": "layer:910-assurance", "description": "Quality assurance and testing, audit, logs. independent internal audit." },
     { "id": "layer:unbound", "description": "Files not subject to layer requirements." },

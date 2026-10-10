@@ -3,7 +3,7 @@
   "_block": "[02.TOPOLOGY]",
   "_optionality": "[REQUIRED]",
   "_origin": "[DECLARED]",
-  "_status": "[APPROVED_V3_20261005]",
+  "_status": "[APPROVED_V3_20261010]",
   "_description": "[TET-α] Macro Boundary, Host / platform target — where the app runs and gets delivered. Sets the absolute laws of physics for app.",
   "_datatype": "[ENUM-CLOSED] parent",
   "enumTarget": [

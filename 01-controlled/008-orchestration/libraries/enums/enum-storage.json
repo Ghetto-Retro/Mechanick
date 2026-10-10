@@ -3,7 +3,7 @@
   "_block": "[02.TOPOLOGY]",
   "_optionality": "[REQUIRED]",
   "_origin": "[DECLARED]",
-  "_status": "[APPROVED_V3_20261005]",
+  "_status": "[APPROVED_V3_20261010]",
   "_description": "[TET-δ] Data Paradigm, The type of database/storage for the software/app.",
   "_datatype": "[ENUM-CLOSED] parent: backend [TET-γ]",
   "enumStorage": [
@@ -13,7 +13,7 @@
     { "id": "storage:graph", "parent": null, "description": "Neo4j- Not in V3 scope." },
     { "id": "storage:vector", "parent": null, "description": "Handles unstructured data embeddings. Pinecone- Not in V3 scope." },
     { "id": "storage:flat-file", "parent": ["backend:local"], "description": "Obsidian, Github" },
-    { "id": "storage:content-addressable", "parent": ["backend:baas"], "description": "" },
+    { "id": "storage:content-addressable", "parent": null, "description": "Not in V3 scope." },
     { "id": "storage:non", "parent": null, "description": "Not Assignable." }
   ]
 }

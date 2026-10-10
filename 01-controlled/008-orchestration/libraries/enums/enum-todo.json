@@ -2,10 +2,10 @@
   "_block": "[05.DEVELOPER]",
   "_optionality": "[DISCRETIONARY]",
   "_origin": "[DECLARED]",
-  "_status": "[APPROVED_V3_20261005]",
+  "_status": "[APPROVED_V3_20261010]",
   "_description": "Meta-cognitive markers anchor to an optional section name.",
   "_datatype": "[ENUM-CLOSED] sigil/kind, note, location",
-  "tagTodo": [
+  "enumTodo": [
     { "id": "todo:⊥BLOCKED", "description": "Awaiting resolution of another item. #2a2c41 on #8e9aaf" },
     { "id": "todo:↯DANGER", "description": "This is fragile/dangerous and will bite. #d70427 on #ffe66b" },
     { "id": "todo:∠DEFER", "description": "Not done yet, no defect, no plan-detail. Come back to this and address when time allows. #FEC53E on #003357" },

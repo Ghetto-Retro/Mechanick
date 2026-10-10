@@ -4,9 +4,9 @@
   "_optionality": "[REQUIRED]",
   "_origin": "[DECLARED]",
   "_status": "[APPROVED_V3_20261005]",
-  "_description": "[DMT-η] Architectural Axis. Domain-profile (module, vertical slice, business rules/logic) schema data model.",
+  "_description": "[DMT-ζ] Architectural Axis. Domain-profile (module, vertical slice, business rules/logic) schema data model.",
   "_datatype": "[ENUM-CLOSED]",
-  "tagDomain": [
+  "enumDomain": [
     { "id": "domain:agent", "description": "CUSTOM: LLM, instructions in the form of a prompt." },
     { "id": "domain:archival", "description": "CRYPT: Long-term offline packaging and storage." },
     { "id": "domain:assets", "description": "CREATOR: Digitally created inventory." },

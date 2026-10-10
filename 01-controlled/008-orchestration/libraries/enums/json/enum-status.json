@@ -2,7 +2,7 @@
 {
   "_status": "[APPROVED_V3_20261005]",
   "_description": "REQUIRED-TAIL-APPEND: Version number (`V#`) and 8-digit timestamp (`YYYYMMDD`) (eg; `[IN-PROGRESS_V3_20260930]`).",
-  "tagStatus": [
+  "enumStatus": [
     { "id": "status:not-started", "description": "No documentation has been written yet." },
     { "id": "status:planning", "description": "Specifications and scope are loosely discussed and documented." },
     { "id": "status:in-progress", "description": "Documentation is currently being written or updated." },

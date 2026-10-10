@@ -6,7 +6,7 @@
   "_status": "[APPROVED_V3_20261005]",
   "_description": "[DMT-ξ] Architectural Axis. Layer, lint-verified directional boundaries.",
   "_datatype": "[ENUM-CLOSED]",
-  "tagLayer": [
+  "enumLayer": [
     { "id": "layer:000-system", "description": "Specifications for builds, suites, stacks, versioning, routing, philosophies, etc." },
     { "id": "layer:001-presentation", "description": "UI/UX, across all builds. components, layouts, styles, widgets." },
     { "id": "layer:002-application", "description": "Service, API, Context, IPC, Hooks." },

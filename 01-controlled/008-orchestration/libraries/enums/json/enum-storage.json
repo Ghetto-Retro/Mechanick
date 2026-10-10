@@ -6,7 +6,7 @@
   "_status": "[APPROVED_V3_20261005]",
   "_description": "[TET-δ] Data Paradigm, The type of database/storage for the software/app.",
   "_datatype": "[ENUM-CLOSED] parent: backend [TET-γ]",
-  "tagStorage": [
+  "enumStorage": [
     { "id": "storage:sql", "parent": ["backend:local"], "description": "Relational- PostgreSQL, MySQL." },
     { "id": "storage:document", "parent": ["backend:baas"], "description": "NoSQL- Firebase, MongoDB." },
     { "id": "storage:key-value", "parent": null, "description": "Redis- Not in V3 scope." },

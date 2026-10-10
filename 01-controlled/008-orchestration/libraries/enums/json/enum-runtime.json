@@ -6,7 +6,7 @@
   "_status": "[APPROVED_V3_20261005]",
   "_description": "[TET-β] Execution Context, runtime targets, path cross-check, where it executes, process context.",
   "_datatype": "[ENUM-CLOSED] parent: target [TET-α]",
-  "tagRuntime": [
+  "enumRuntime": [
     { "id": "runtime:documentation", "parent": ["target:directory"], "description": "Purely markdown for development." },
     { "id": "runtime:main", "parent": ["target:desktop"], "description": "electron. All raw SQL queries, file system access, and data parsing happen in this process." },
     { "id": "runtime:preload", "parent": ["target:desktop"], "description": "electron." },

@@ -2,7 +2,7 @@
 {
   "_status": "[APPROVED_V3_20261005]",
   "_description": "Answers what supplies the value.",
-  "tagOrigin": [
+  "enumOrigin": [
     { "id": "origin:constant", "description": "Fixed by the schema; identical in every file." },
     { "id": "origin:instantiated", "description": "Template fills in env vars at insert, then frozen until re-stamped." },
     { "id": "origin:declared", "description": "Author picks it (enum or free text)." },

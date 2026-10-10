@@ -6,7 +6,7 @@
   "_status": "[APPROVED_V3_20261005]",
   "_description": "adr, chg, and other technical tags.",
   "_datatype": "[ARRAY]",
-  "tagTechnical": [
+  "enumTechnical": [
     { "id": "technical:§GVN", "description": "clause_profile [§GVN] Directly relates to established governance clauses per binding #f6aa1e" },
     { "id": "technical:◇ADR", "description": "adr [◇ADR] Provides log of architectural decision records. File specific decisions only. #b7d7b9" },
     { "id": "technical:σCON", "description": "waiver [σCON] Concessions, Legal deviation method for visibility.#77ab56" },

@@ -4,9 +4,9 @@
   "_optionality": "[REQUIRED]",
   "_origin": "[DECLARED]",
   "_status": "[APPROVED_V3_20261005]",
-  "_description": "[DMT-ζ] Architectural Axis. Drives spine templates.",
+  "_description": "[DMT-η] Architectural Axis. Drives spine templates.",
   "_datatype": "[ENUM-CLOSED]",
-  "tagsFiletype": [
+  "enumFiletype": [
     { "id": "filetype:adapter", "prefix": "ADP", "scope": "PAT-TS", "description": "A structural design pattern in object-oriented programming allowing objects with incompatible interfaces to collaborate." },
     { "id": "filetype:application-programming-interface", "prefix": "API", "scope": "PAT-TS", "description": "Defined rules, protocols, and tools allowing different applications to communicate and exchange data." },
     { "id": "filetype:architectural-decision-record", "prefix": "ADR", "scope": "DOC-MD", "description": "Captures a specific design choice and the why behind it." },

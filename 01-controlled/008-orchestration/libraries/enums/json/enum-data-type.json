@@ -2,7 +2,7 @@
 {
   "_status": "[APPROVED_V3_20261005]",
   "_description": "Preamble Field Metadata for Data type.",
-  "tagDatatype": [
+  "enumDatatype": [
     { "id": "datatype:string", "description": "Text" },
     { "id": "datatype:integer", "description": "Whole number" },
     { "id": "datatype:array", "description": "List" },
